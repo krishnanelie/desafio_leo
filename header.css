@@ -1,0 +1,128 @@
+header {
+    width: 100%;
+    position: fixed;
+    Top: 0;
+    Left: 0;
+    z-index: 999;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    background: white;
+}
+
+.menu {
+    display: flex;
+    table-layout: fixed;
+    float: left;
+    transition: all .5s ease;
+}
+
+.menu li {
+    display: table-cell;
+    overflow: hidden;
+
+}
+
+.menu li a {
+    color: #fff;
+    display: flex;
+    font-family: "Myriad Pro", Arial;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0.3);
+}
+
+#logo {
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+
+#txtSearch {
+    border: solid 2px #bbb;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 14px;
+    background-image: url(images/search.png);
+    background-color: #efefef;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    padding-right: 5%;
+}
+
+.border {
+    position: absolute;
+    left: 68%;
+    top: 20%;
+    border-left: 2px solid #efefef;
+    width: 10px;
+    height: 80px;
+}
+
+.profile {
+    background-color: #aaa;
+    border-radius: 75%;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+
+}
+
+.profile img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 75%;
+    border: gray 2px solid;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.welcome {
+    font-size: 12px medium;
+    position: absolute;
+    top: 10%;
+    left: 77%;
+}
+
+.name {
+    font-size: 14px bold;
+    width: 100px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.down-arrow:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000;
+    position: absolute;
+    top: 65%;
+    left: 110%;
+}
