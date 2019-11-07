@@ -1,0 +1,250 @@
+header {
+    width: 100%;
+    position: fixed;
+    Top: 0;
+    Left: 0;
+}
+
+nav {
+    width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 4px;
+    border-bottom: 1px solid;
+    background: white;
+}
+
+.menu {
+    display: flex;
+    table-layout: fixed;
+    float: left;
+    transition: all .5s ease;
+}
+
+.menu li {
+    display: table-cell;
+    overflow: hidden;
+
+}
+
+.menu li:first-child {
+    border-left: none;
+}
+
+.menu li:first-child:hover {
+    border-left: none;
+
+}
+
+.menu li a {
+    color: #fff;
+    display: flex;
+    font-family: "Myriad Pro", Arial;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0.3);
+}
+
+.menu li:hover {
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+
+}
+
+#logo {
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+
+#txtSearch {
+    border: solid 1px;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    margin-left: 200%;
+    margin-top: 5%;
+    float: left;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 14px;
+    background-image: url(images/search.png);
+    background-color: #d3d3d3;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    padding-right: 5%;
+}
+.border{
+    position: fixed;
+    margin-left: 68%;
+    border-left: 3px solid #d3d3d3;
+    width: 10px;
+    height:80px;
+}
+
+.profile {
+    background-color: #aaa;
+    border-radius: 75%;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 70%;
+    
+}
+
+.profile img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 75%;
+    border: gray 2px solid;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.welcome {
+    font-size: 14px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 82%;
+}
+.name {
+    font-size: 16px bold;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 82%;
+}
+.down-arrow:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000;
+    margin-top:35px;
+    margin-left: 700px;
+    position: fixed;
+  }
+
+.slider-container {
+    margin-top: 100px;
+}
+.slider {
+    display: flex;
+    margin: 0;
+    position: relative;
+    border: #fffafa;
+    background-size: 20px;
+}
+
+.slider li {
+    list-style: none;
+    position: fixed;
+    border: #fffafa;
+    background-size: 20px;
+}
+
+.slider img {
+    margin-left:-10%;
+    height: 300px;
+    width: 120%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+    color: #d3d3d3;
+}
+
+.slider label {
+    background-color: #d3d3d3;
+    cursor: pointer;
+    display: flex;
+    height: 10px;
+    position: fixed;
+    width: 10px;
+    z-index: 10;
+    align-self: center;
+    margin-top: 290px;
+    margin-left: 505px;
+    border-radius: 5px;
+
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ label {
+    background-color: red;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider-container .slider-box {
+    opacity: .6;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #000;
+    width: 150px;
+    height: 200px;
+    border: 1px #222 solid;
+}
+
+.container{
+    background-color: #d3d3d3;
+    width: 100%;
+    margin-top:70px ;
+
+
+}
+.title{
+    font-size: 18px bold;
+    width: 90%;
+    margin-left: 3%;
+    border-bottom: 2px solid #fffafa;
+}
+.box1{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    margin: 20px 40px;
+}
+/* h3 {
+    margin: 20px;
+}
+p{
+    margin: 20px;
+    color: #d3d3d3;
+} */
