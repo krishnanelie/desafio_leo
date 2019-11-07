@@ -4,6 +4,8 @@
 <head>
 
     <link href="style.css" rel="stylesheet">
+    <link href="slider.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <title>Desafio Leo</title>
 </head>
@@ -39,31 +41,31 @@
 
         </nav>
     </header>
-    <div class="slider-container">
-        <ul class="slider">
-            <li>
-                <input type="radio" id="slide1" name="slide" checked>
-                <label for="slide1"></label>
-                <img src="images/1.jpg" />
-            </li>
-            <li>
-                <input type="radio" id="slide2" name="slide">
-                <label for="slide2"></label>
-                <img src="images/2.jpg" />
-            </li>
-            <li>
-                <input type="radio" id="slide3" name="slide">
-                <label for="slide3"></label>
-                <img src="images/3.jpg" />
-            </li>
-        </ul>
-        <div class="slider-box">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/1.jpg" style="width:100%">
 
+        </div>
+        <div class="mySlides fade">
+            <img src="images/2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/3.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="background-dot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </div>
     <div class="container">
         <div class="title">
+            <br>
             <h1>MEUS CURSOS</h1>
+
         </div>
         <div class="box1">
             <img src="images/box3.jpg" width="250" height="200">
@@ -72,6 +74,9 @@
 
         </div>
     </div>
+
+    <script type="text/javascript" src="slider.js"></script>
+
 </body>
 
 </html>
