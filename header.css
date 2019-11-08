@@ -103,14 +103,15 @@ nav {
     position: absolute;
     top: 10%;
     left: 77%;
+    color: #bbb;
 }
 
 .name {
-    font-size: 14px bold;
     width: 100px;
     position: absolute;
-    top: 60%;
-    left: 10%;
+    top: 30%;
+    left: 80%;
+    color: #545454;
 }
 
 .down-arrow:before {

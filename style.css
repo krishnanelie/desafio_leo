@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     margin-top: -40px;
+    margin-bottom: 40px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,7 +11,7 @@
     font-size: 18px bold;
     width: 90%;
     margin-left: 50px;
-    border-bottom: 2px solid #cdc9c8;
+    border-bottom: 2px solid #bbb;
     margin-top: 40px;
     margin-bottom: 10px;
     color: #545454;
@@ -92,7 +93,7 @@
 
 .container p {
     margin: 20px;
-    color: #cdc9c8;
+    color: #bbb;
 }
 
 .button {
@@ -122,8 +123,8 @@
 
 .add {
     width: 208px;
-    height: 450px;
-    border: 2px dashed #545454;
+    height: 446px;
+    border: 2px dashed #bbb;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -135,10 +136,11 @@
 
 .add h3 {
     text-align: center;
-    color: #545454;
+    color: #bbb;
 }
 
 .add h2 {
     text-align: center;
-    color: #545454;
+    color: #bbb;
+    margin-top: -20px;
 }
