@@ -10,7 +10,7 @@
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 45px;
     margin-top: 20px;
 }
 
@@ -23,6 +23,10 @@
     color: #bbb;
 }
 
+.contact {
+    margin-left: 60%;
+}
+
 .title-contact p {
 
     color: #545454;
@@ -31,11 +35,16 @@
 .data-contact p {
     color: #bbb;
 }
-.networks{
-    width: 30%;
+
+.networks {
+    width: 45%;
     float: right;
+    margin-right: -10%;
+    text-align: center;
     margin-top: -120px;
+
 }
+
 .networks p {
 
     color: #545454;
@@ -44,16 +53,18 @@
 .icons-network p {
     color: #bbb;
 }
-.copyright{
+
+.copyright {
     display: flow-root;
     height: 40px;
     width: 100%;
     margin: 5px;
     background-color: #efefef;
 }
-.copyright p{
+
+.copyright p {
     color: #bbb;
-    
+
 }
 
 @media only screen and (min-width: 450px) and (max-width: 769px) {
@@ -67,6 +78,7 @@
         float: left;
         text-align: left;
     }
+
 
     .networks {
         width: 30%;
@@ -90,13 +102,26 @@
 
     }
 
-    /* .logo img, .networks img {
-         width: 10%; */
 }
 
-.networks {
-    width: 45%;
-    float: right;
-    margin-right: 1%;
-    text-align: center;
+@media only screen and (max-width: 425px) {
+    .contact {
+        margin-left: 10%;
+    }
+
+    .networks {
+        margin-left: 5%;
+
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .contact {
+        margin-left: 10%;
+    }
+
+    .networks {
+        margin-left: 5%;
+
+    }
 }
