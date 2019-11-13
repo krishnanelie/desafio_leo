@@ -86,3 +86,28 @@
         min-width: calc(12.5% - 10px);
     }
 }
+
+.add {
+    width: 208px;
+    height: 446px;
+    border: 2px dashed #bbb;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.add img {
+    width: 50%;
+    height: 50%;
+    margin: 50px 50px;
+}
+
+.add h3 {
+    text-align: center;
+    color: #bbb;
+}
+
+.add h2 {
+    text-align: center;
+    color: #bbb;
+    margin-top: -20px;
+}
