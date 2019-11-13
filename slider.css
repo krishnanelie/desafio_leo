@@ -5,6 +5,9 @@
 .mySlides img {
     vertical-align: middle;
     height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .slideshow-container {
@@ -13,10 +16,11 @@
     margin-top: 60px;
     height: 400px;
     display: flex;
-    justify-content:center;
-    align-items:flex-end;
+    justify-content: center;
+    align-items: flex-end;
 }
-#slide-template{
+
+#slide-template {
     display: none;
 }
 
@@ -37,9 +41,10 @@
 
 }
 
-.prev{
+.prev {
     left: 0;
 }
+
 .next {
     right: 0;
 }
@@ -115,6 +120,41 @@
     display: flex;
     justify-content: space-evenly;
     box-shadow: 1px 1px 15px -4px #0C0C0B;
-  
 
+
+}
+
+.slide-box {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: 100px;
+    left: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    padding: 20px;
+
+}
+.slide-box h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.slide-box p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.button-box-slider {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+.button-box-slider:hover {
+    background-color: white;
+    color: #555555;
 }
