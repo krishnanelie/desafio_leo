@@ -19,11 +19,7 @@
     flex-wrap: wrap;
 }
 
-.logo {
-    
-}
-
-.logo p {
+.footer .logo p {
     display: flex;
     table-layout: fixed;
     left: 3%;
@@ -31,7 +27,6 @@
     width: 300px;
     color: #bbb;
 }
-
 
 .title-contact p {
 

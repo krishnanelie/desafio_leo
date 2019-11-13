@@ -19,35 +19,38 @@
 <body>
     <header>
         <nav>
-            <ul class="menu">
-                <li>
+            <div class="menu">
+                <div class="logo">
                     <a href="logo"><img src="images/leo_black.svg" width="100px" /></a>
-                </li>
+                </div>
                 <div>
                     <form method="get" action="http://leolearning.com.br/#pg-474-1">
                         <input type="text" id="txtSearch" placeholder="Pesquisar cursos..." img src="">
                     </form>
                     <div class="border"></div>
                 </div>
-                <div class="profile">
-                    <img src="images/profile.jpeg">
-
-                </div>
-                <div>
-                    <div class="welcome">
-                        <p>Seja bem-vindo</p>
-
+                <div class="menu-right">
+                    <div class="profile-container">
+                        <div class="profile">
+                            <img src="images/profile.jpeg">
+                        </div>
                     </div>
+                    <div class="profile-info">
+                        <div class="welcome">
+                            <p>Seja bem-vindo</p>
 
-                    <div class="name">
-                        <p> John Doe</p>
+                        </div>
+                        <div class="name">
+                            <p> John Doe</p>
+                        </div>
+                    </div>
+                    <div>
+                        <span id="dropdown" class="down-arrow" onclick="hide()"></span>
+                    </div>
+                    <div class="login">
+                        <button onclick="login()">Login</button>
                     </div>
                 </div>
-
-                <div class="col-3">
-                    <span id="dropdown" class="down-arrow"></span>
-                </div>
-
 
                 <!-- The Modal -->
                 <div id="myModal" class="modal">
@@ -68,14 +71,14 @@
 
                 </div>
 
-                </div>
+            </div>
 
-            </ul>
+            </div>
         </nav>
     </header>
     <div class="slideshow-container">
         <div class="mySlides fade" id="slide-template">
-            <img src="images/1.jpg" style="width:100%" >
+            <img src="images/1.jpg" style="width:100%">
             <div class="slide-box">
                 <h3>Pharetra sagittis</h3>
                 <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos heuilisis elit</p>
@@ -87,7 +90,7 @@
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        <div class="background-dot" >
+        <div class="background-dot">
             <span class="dot" onclick="currentSlide(1)" id="dot-template"></span>
 
         </div>
@@ -106,7 +109,7 @@
                 <button class="button">VER CURSO</button>
             </div>
             <div class="add">
-                <img src="images/folder-plus-solid-gray.png" >
+                <img src="images/folder-plus-solid-gray.png">
                 <h3>ADICIONAR </h3>
                 <h2>CURSOS</h2>
             </div>
@@ -145,6 +148,7 @@
     <script type="text/javascript" src="slider.js"></script>
     <script type="text/javascript" src="modal.js"></script>
     <script type="text/javascript" src="card.js"></script>
+    <script type="text/javascript" src="login.js"></script>
 </body>
 
 </html>
